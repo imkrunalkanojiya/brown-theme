@@ -31,9 +31,6 @@
                         <?php the_content() ?>
                     </div>
                 </div>
-                <div class="post-comment">
-
-                </div>
             </div>
 
         <?php

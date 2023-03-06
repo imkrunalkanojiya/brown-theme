@@ -48,20 +48,28 @@
           @include for414px{
             width: 40%;
           }
-          h2 {
-            font-size: 24px;
-            font-family: "Righteous", cursive;
-            margin-bottom: 0px;
-            @include for414px{
-              font-size: 18px;
+          a{
+            text-decoration: none;
+            color: #000;
+            h2 {
+              font-size: 24px;
+              font-family: "Righteous", cursive;
+              margin-bottom: 0px;
+              @include for414px{
+                font-size: 18px;
+              }
             }
           }
+          
         }
         .col-right {
           width: 50%;
           text-align: end;
           @include for414px{
             width: 60%;
+          }
+          @include for768px{
+            display: none;
           }
           input {
             border: 1px solid #ced4da;
@@ -323,6 +331,71 @@
               color: rgba(0, 0, 0, .8);
             }
           }
+        }
+      }
+    }
+  }
+  #theme-search-blog{
+    width: 100%;
+    .container{
+      .posts-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 30px;
+        @include for998px{
+          grid-template-columns: 1fr 1fr;
+        }
+        @include for414px{
+          grid-template-columns: 1fr;
+        }
+        .post-card{
+            width: 100%;
+            border: 1px solid #ced4da;
+            .post-img{
+                max-height: 300px;
+                img{
+                    width: 100%;
+                }
+            }
+            .post-content{
+                padding: 20px 20px;
+                .content {
+                    margin-bottom: 26px;
+                    a{
+                      text-decoration: none !important;
+                      color: #000;
+                      h4 {
+                        margin-bottom: 14px;
+                        line-height: 1.4em;
+                        font-weight: 600;
+                      }
+                    }
+                    p {
+                      color: rgba(0, 0, 0, 0.44);
+                      font-size: 16px;
+                      line-height: 1.6em;
+                      margin-bottom: 0px;
+                    }
+                  }
+                  .post-meta {
+                    a{
+                      text-decoration: none !important;
+                      color: #000;
+                      h5 {
+                        margin-bottom: 04px;
+                        font-size: 20px;
+                        line-height: 1.4em;
+                      }
+                    }
+                  
+                    p {
+                      color: rgba(0, 0, 0, 0.44);
+                      margin-bottom: 0px;
+                    }
+                  }
+            }
         }
       }
     }

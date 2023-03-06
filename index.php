@@ -42,7 +42,9 @@
                     }
                     wp_reset_postdata();
                 } else {
-                    // If no posts found
+                    ?>
+                    <h4 class="no-data">No Featured Posts</h4>
+                    <?php
                 }
                 ?>
 
@@ -93,19 +95,17 @@
                 <?php
                         }
                         $post_counter++; // Increment post counter
-
+    
                     }
+
                     wp_reset_postdata();
                 } else {
-                    // If no posts found
+                    ?>
+                    <h4 class="no-data">No Posts</h4>
+                    <?php
                 }
                 ?>
 
-            </div>
-            <div class="posts-pagination">
-                <a href="#">
-                    << Prev</a>
-                        <a href="#">Next >></a>
             </div>
         </div>
     </div>

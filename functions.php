@@ -10,7 +10,7 @@ function brown_theme_load_scripts()
 
     //for production they dont need version of style
     wp_enqueue_style('brown-theme-style',get_stylesheet_uri(),array(),'1.0','all');
-    wp_enqueue_style('brown-theme-main-style',get_template_directory_uri() . '/assets/css/main.css',array(),'1.0','all');
+    wp_enqueue_style('brown-theme-main-style',get_template_directory_uri() . '/assets/css/main.css',array(),1.0,'all');
     wp_enqueue_style('brown-theme-boostrap-style',get_template_directory_uri() . '/assets/css/bootstrap.min.css',array(),'1.0','all');
 
     //for production js
