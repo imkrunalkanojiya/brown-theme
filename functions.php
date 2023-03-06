@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Theme functions and definitions
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+
 // enqueing styles and scripts
 function brown_theme_load_scripts()
 {
@@ -42,6 +51,8 @@ function brown_theme_config()
         'flex-height' => true,
         'flex-width' => true
     ));
+
+    add_theme_support('title_tag');
 }
 add_action('after_setup_theme', 'brown_theme_config', 0);
 

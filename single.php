@@ -1,3 +1,13 @@
+<?php
+/**
+ * The template for displaying singular post-types: posts.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+?>
+
 <?php get_header(); ?>
 <main id="theme-single-blog">
     <div class="container">

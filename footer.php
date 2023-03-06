@@ -1,3 +1,14 @@
+<?php
+
+/**
+ * The template for displaying the footer.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+?>
+
 <footer id="footer">
         <div class="container">
             <div class="meta">

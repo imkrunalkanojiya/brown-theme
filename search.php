@@ -1,3 +1,13 @@
+<?php
+/**
+ * The template for displaying search results.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+?>
+
 <?php get_header(); ?>
 <main id="theme-search-blog">
     <div class="container">

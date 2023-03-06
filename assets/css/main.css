@@ -523,6 +523,17 @@
   margin-bottom: 0px;
 }
 
+#theme-root #theme-pagenotfound {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#theme-root #theme-pagenotfound .container h2 {
+  text-align: center;
+  font-family: 'Righteous';
+  line-height: 1.4em;
+}
+
 #theme-root #footer {
   width: 100%;
   position: relative;

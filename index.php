@@ -1,3 +1,13 @@
+<?php
+/**
+ * The site's entry point.
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+?>
+
 <?php get_header(); ?>
 <main id="theme-main">
     <div class="theme-featured">
